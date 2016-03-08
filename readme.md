@@ -1,8 +1,8 @@
-## Perfection Learning
+## Perfection Learning Style Guide
 
 # Universal
 
-Set tabs at 2 spaces
+Single tab (2 columns)
 
 
 # HTML Style Guide
@@ -13,7 +13,7 @@ Quotes
 <div class="some-class" ng-class="{ 'has-error' : true } ">
   {{'Item: ' + item.name}}
 </div>
-<!-- note that the JS is still single quoted --> 
+<!-- note that the JS is still single quoted -->
 ```
 
 # LESS/CSS Style Guide
@@ -37,7 +37,7 @@ Naming
 
 # Javascript Style Guide
 
-This guide is baed on the AirBNB Style Guide for ES5 can be found here: 
+This guide is baed on the AirBNB Style Guide for ES5 can be found here:
 [http://github.com/airbnb/javascript/tree/master/es5
 ]()
 
@@ -63,12 +63,12 @@ var firstName = "Chris"; // no double quotes
 var firstName = 'Chris'; // always use single quotes
 ```
 
-Promises 
+Promises
 
 ```
 // confusing, wrapped markup:
 
-function getCourses(id) { 
+function getCourses(id) {
   return Course.getById(id).then(getBooks);
 }
 
@@ -87,7 +87,7 @@ function bookErr(err) {
 
 // much better
 Course.getById(id).then(function(data) {
-  if (!_.has(data, 'id')) return; 
+  if (!_.has(data, 'id')) return;
   Books.getById(data.id).then(function(data) {
   	// do stuff
   }, function(err) {
