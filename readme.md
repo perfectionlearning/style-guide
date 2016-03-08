@@ -2,7 +2,8 @@
 
 # Universal
 
-Single tab (2 columns)
+Editor
+- single tab (2 columns)
 
 
 # HTML Style Guide
