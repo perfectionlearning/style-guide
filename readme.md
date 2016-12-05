@@ -39,8 +39,8 @@ Naming
 # Javascript Style Guide
 
 This guide is baed on the AirBNB Style Guide for ES5 can be found here:
-[http://github.com/airbnb/javascript/tree/master/es5
-]()
+[http://airbnb.io/javascript/]()
+[https://github.com/airbnb/javascript]()
 
 Naming
 
