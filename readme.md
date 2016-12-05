@@ -40,6 +40,8 @@ Naming
 
 This guide is baed on the AirBNB Style Guide for ES5 can be found here:
 [http://airbnb.io/javascript/]()
+
+Of possible additional interest:
 [https://github.com/airbnb/javascript]()
 
 Naming
